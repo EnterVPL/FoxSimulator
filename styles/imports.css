@@ -1,0 +1,6 @@
+/* Only import others styles */
+@import url("console.css");
+@import url("fonts.css");
+@import url("images.css");
+@import url("responsive.css");
+@import url("buttons.css");

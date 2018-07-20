@@ -1,0 +1,31 @@
+/****************
+* DEFAULT STYLE *
+*****************/
+* {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.5s;
+}
+
+body {
+    background-color: rgb(30, 30, 34);
+    margin: 64px;
+}
+
+.console {
+    color: rgb(244, 245, 236);
+    outline: none;
+}
+
+#consoleInput.console {
+    border-bottom: 1px double rgb(244, 245, 236);
+    width: 512px;
+}
+
+#consoleInput.console:focus {
+    outline: none;
+}

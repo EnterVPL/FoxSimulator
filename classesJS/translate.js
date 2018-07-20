@@ -22,7 +22,7 @@ function translate() {
                 toTran = $(this)[0].firstChild;
                 toTran.textContent = response[tran];
             });
-            self.setFlags(lang);
+            //self.setFlags(lang);
         });
     }
    
