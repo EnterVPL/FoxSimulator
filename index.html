@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/normalizer.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="styles/imports.css">
-    <title>FoxSimulator</title>
-    <script src="libs/jquery-3.3.1.js"></script>
-    <script src="classesJS/translate.js"></script>
-    <script src="classesJS/buttonsEvents.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles/normalizer.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="styles/imports.css">
+        <title>FoxSimulator</title>
+        <script src="libs/jquery-3.3.1.js"></script>
+        <script src="classesJS/Translate.js"></script>
+        <script src="classesJS/buttonsEvents.js"></script>
+        <script src="classesJS/keysEvents.js"></script>
+    </head>
 
-<body>
-    <div>
-        <div id="langs">
-            <div class="en">
-                <span>EN</span>
-            </div>
-            <div class="pl">
-                <span>PL</span>
-            </div>
-        </div>
+    <body>
         <div>
-            <div id="consoleOutput" class="console">
-                <p translate="welcome">Welcome to the FoxSimulator!</p>
+            <div id="langs">
+                <div class="en">
+                    <span>EN</span>
+                </div>
+                <div class="pl">
+                    <span>PL</span>
+                </div>
             </div>
             <div>
-                <div contenteditable="true" id="consoleInput" class="console"></div>
+                <div id="consoleOutput" class="console">
+                    <p translate="welcome">Welcome to the FoxSimulator!</p>
+                </div>
+                <div>
+                    <div contenteditable="true" tabindex="1" id="consoleInput" class="console"></div>
+                </div>
+
+                <div id="consoleCommands">
+                    <span translate="commandsList" class='commandsList'>List of commands:</span>
+                    <p translate="logIn" command="login">login [login] [password]</p>
+                    <p translate="register" command="register">register [login] [password] [password] [e-mail]</p>
+                </div>
+
             </div>
         </div>
-    </div>
-    <script src="main.js"></script>
-</body>
+        <script src="classesJS/Controler.js"></script>
+        <script src="main.js"></script>
+    </body>
 
 </html>

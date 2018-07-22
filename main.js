@@ -1,7 +1,4 @@
-(function () {
-    var trans = new translate();
-    trans.getCountry();
-    trans.setLang();
-})();
+var controller = new Controller();
 
-$("div#consoleInput").focus();
+controller.translate('en', ['en', 'pl']);
+controller.setDefaultFocus("div#consoleInput");

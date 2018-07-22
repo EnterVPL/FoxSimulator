@@ -16,10 +16,20 @@
 
 #langs *:hover {
     border-radius: 32px 16px 32px 16px / 0px 32px 0px 32px;
-    text-shadow: 0px 0px 8px rgb(98, 133, 98);
+    text-shadow: 0px 0px 8px rgb(134, 134, 134);
 }
 
 #langs *:active {
-    border: 2px dotted rgb(65, 83, 57);
+    border: 2px dotted rgb(102, 102, 102);
     border-radius: 16px 32px 16px 32px / 32px 0px 32px 0px;
+}
+
+div#consoleCommands p:hover {
+    color: rgb(172, 172, 172);
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+}
+
+div#consoleCommands p:active {
+    color: rgb(196, 196, 196);
+    text-shadow: 0px 0px 8px rgb(78, 90, 76);
 }

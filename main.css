@@ -15,17 +15,3 @@ body {
     background-color: rgb(30, 30, 34);
     margin: 64px;
 }
-
-.console {
-    color: rgb(244, 245, 236);
-    outline: none;
-}
-
-#consoleInput.console {
-    border-bottom: 1px double rgb(244, 245, 236);
-    width: 512px;
-}
-
-#consoleInput.console:focus {
-    outline: none;
-}

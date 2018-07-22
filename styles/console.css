@@ -1,0 +1,38 @@
+/*
+ * Styles from all console IDs and classes.
+ */
+
+.console {
+    color: rgb(244, 245, 236);
+    outline: none;
+}
+
+#consoleInput.console {
+    border-bottom: 1px double rgb(244, 245, 236);
+    width: 512px;
+}
+
+#consoleInput.console:focus {
+    outline: none;
+}
+
+div#consoleCommands {
+    color: rgb(244, 245, 236);
+    border: 1px solid white;
+    float: right;
+    width: 320px;
+    padding: 8px;
+}
+
+div#consoleCommands span.commandsList {
+    border-bottom: 1px dotted white;
+    display: inline-block;
+    width: 100%;
+    list-style-type: circle;
+}
+
+div#consoleCommands p {
+    margin-left: 16px;
+    display: list-item;
+    cursor: pointer;
+}
