@@ -1,6 +1,6 @@
 {
     "welcome": "Witaj w FoxSimulator!",
-    "logIn": "zaloguj [login] [hasło]",
-    "register": "zarejestruj [login] [hasło] [hasło] [e-mail]",
+    "logIn": "zaloguj",
+    "register": "zarejestruj",
     "commandsList": "Lista komend:"
 }
