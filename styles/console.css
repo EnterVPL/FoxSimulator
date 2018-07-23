@@ -36,3 +36,10 @@ div#consoleCommands p {
     display: list-item;
     cursor: pointer;
 }
+
+div.console#consoleOutput {
+    border: 1px double rgb(244, 245, 236);
+    width: 512px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
