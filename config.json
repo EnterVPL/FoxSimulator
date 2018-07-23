@@ -1,4 +1,5 @@
 {
     "dbname": "dbname",
-    "dbuser": "dbuser"
+    "dbuser": "dbuser",
+    "dbpassword": "dbpassword"
 }
