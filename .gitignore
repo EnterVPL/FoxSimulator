@@ -3,4 +3,6 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+config.json
+git ignore --cached config.json
 git-update-index --assume-unchanged config.json
