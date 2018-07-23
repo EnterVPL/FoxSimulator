@@ -39,7 +39,7 @@ div#consoleCommands p {
 
 div.console#consoleOutput {
     border: 1px double rgb(244, 245, 236);
-    width: 512px;
+    width: 492px;
     margin-bottom: 16px;
     padding: 8px;
 }
